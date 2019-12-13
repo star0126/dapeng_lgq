@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.system.module1.dao.BmEmpDao">
+
+    <!--定义sql片段-->
+    <sql id="CommonSQL">
+        <if test="bmEmp.empSex!=null and bmEmp.empSex!='' ">
+            empSex=#{bmEmp.empSex}
+        </if>
+        <if test="bmEmp.empDept!=null and bmEmp.empDept!='' ">
+            empDept IN #{bmEmp.empDept}
+        </if>
+        <if test="bmEmp.empRole!=null and bmEmp.empRole!='' ">
+            empRole IN #{bmEmp.empRole}
+        </if>
+        <if test="bmEmp.empStatus!=null and bmEmp.empStatus!='' ">
+            empStatus IN #{bmEmp.empStatus}
+        </if>
+        <if test="bmEmp.jurIde!=null and bmEmp.jurIde!='' ">
+            jurIde IN #{bmEmp.jurIde}
+        </if>
+    </sql>
+
+    <!--条件查找Emp-->
+    <select id="findVlookupBmEmp" resultType="BmEmp" parameterType="com.system.module1.util.EmpUtil">
+        SELECT emp_id,emp_pwd,emp_name,emp_sex,emp_dept,
+        (SELECT d.dept_name FROM bm_dept d WHERE d.dept_id=`bm_emp`.`emp_dept` ) AS deptName,
+        emp_role,emp_status,emp_email,emp_phone,jur_ide FROM bm_emp
+        <where>
+            <!-- 引用sql片段 -->
+            <include refid="CommonSQL"></include>
+        </where>
+    </select>
+
+
+
+
+</mapper>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.system.module1.dao.BmTaskDao">
+    
+ <!--   <resultMap id="myTask" type="com.system.module1.entity.BmTask">
+        <id property="task_id" column="taskId"/>
+        <result property="task_name" column="taskName"/>
+        <result property="task_type" column="taskType"/>
+        <result property="task_creator" column="taskCreator"/>
+        <result property="creator_dept" column="creatorDept"/>
+        <result property="creat_time" column="creatTime"/>
+        <result property="end_time" column="endTime"/>
+        <result property="plan_start_time" column="planStartTime"/>
+        <result property="plan_end_time" column="planEndTime"/>
+        <result property="task_executor" column="taskExecutor"/>
+        <result property="task_status  " column="taskStatus "/>
+        <result property="task_spec  " column="taskSpec "/>
+    </resultMap>-->
+
+    <!--定义sql片段-->
+    <sql id="CommonSQL">
+        <if test="bmTask.taskType!=null and bmTask.taskType!='' ">
+            and task_type=#{bmTask.taskType}
+        </if>
+        <if test="bmTask.taskCreator!=null and bmTask.taskCreator!='' ">
+            and task_creator=#{bmTask.taskCreator}
+        </if>
+        <if test="bmTask.creatorDept!=null and bmTask.creatorDept!='' ">
+            and creator_dept=#{bmTask.creatorDept}
+        </if>
+        <if test="bmTask.taskExecutor!=null and bmTask.taskExecutor!='' ">
+            and task_executor=#{bmTask.taskExecutor}
+        </if>
+        <if test="bmTask.taskStatus!=null and bmTask.taskStatus!='' ">
+            and task_status =#{bmTask.taskStatus}
+        </if>
+        <if test="bmTask.bgtime!=null">
+            and creat_time >= FROM_UNIXTIME(#{bmTask.bgtime},'%Y-%m-%d %H:%i:%S')
+        </if>
+        <if test="bmTask.edtime!=null">
+            and creat_time &lt;= FROM_UNIXTIME(#{bmTask.edtime},'%Y-%m-%d %H:%i:%S')
+        </if>
+       
+
+    </sql>
+    
+    <!--分页动态检索task表-->
+    <select id="findBmTask" resultType="BmTask" >
+        SELECT task_id,task_name,task_type,task_creator,(SELECT emp_name FROM bm_emp
+        WHERE bm_emp.`emp_id`=bm_task.`task_creator`) AS creatorName,creator_dept,
+        (SELECT d.dept_name FROM bm_dept d WHERE d.dept_id=`bm_task`.`creator_dept` ) AS deptName,
+        creat_time,end_time,plan_start_time,plan_end_time,
+        task_executor,(SELECT emp_name FROM bm_emp WHERE bm_emp.`emp_id`=bm_task.`task_executor`) AS executor,
+        task_status,task_spec FROM `bm_task`
+        <where>
+            <!-- 引用sql片段 -->
+            <include refid="CommonSQL"></include>
+        </where>
+        <if test="sort!=null and sort!='' ">
+            ORDER BY ${sort} DESC
+        </if>
+         limit #{pageIndex},#{pageSize} ;
+    </select>
+
+    <!--查询数量统计-->
+    <select id="fintCount" resultType="int" >
+        SELECT count(task_id)  FROM `bm_task`
+        <where>
+            <!-- 引用sql片段 -->
+            <include refid="CommonSQL"></include>
+        </where>
+        <if test="sort!=null and sort!='' ">
+            ORDER BY #{sort} ASC
+        </if>
+    </select>
+
+    <!--新增一条task-->
+    <insert id="addTask" parameterType="BmTask">
+        INSERT INTO bm_task(task_id,task_name,task_type,task_creator,creator_dept,creat_time,end_time,
+        plan_start_time,plan_end_time,task_executor,task_status,task_spec) VALUES(
+        NULL,#{bmTask.taskName},#{bmTask.taskType},#{bmTask.taskCreator},#{bmTask.creatorDept},#{bmTask.creatTime},#{bmTask.endTime},
+        #{bmTask.planStartTime},#{bmTask.planEndTime},#{bmTask.taskExecutor},#{bmTask.taskStatus},#{bmTask.taskSpec})
+    </insert>
+
+    <!--查找一条task，根据编号-->
+    <select id="findBmTaskById" parameterType="int" resultType="BmTask">
+        SELECT task_id,task_name,task_type,task_creator,(SELECT emp_name FROM bm_emp
+        WHERE bm_emp.`emp_id`=bm_task.`task_creator`) AS creatorName,creator_dept,
+        (SELECT d.dept_name FROM bm_dept d WHERE d.dept_id=`bm_task`.`creator_dept` ) AS deptName,
+        creat_time,end_time,plan_start_time,plan_end_time,
+        task_executor,(SELECT emp_name FROM bm_emp WHERE bm_emp.`emp_id`=bm_task.`task_executor`) AS executor,
+        task_status,task_spec FROM `bm_task`
+        where task_id=#{taskId}
+    </select>
+
+    <!--修改一条task-->
+    <update id="updBmTask" parameterType="BmTask">
+        update `bm_task`
+        <trim prefix="set" suffixOverrides=",">
+            <if test="bmTask.taskName!=null and bmTask.taskName!='' ">
+                task_name=#{bmTask.taskName},
+            </if>
+            <if test="bmTask.taskType!=null and bmTask.taskType!='' ">
+                task_type=#{bmTask.taskType},
+            </if>
+            <if test="bmTask.taskCreator!=null and bmTask.taskCreator!='' ">
+                task_creator=#{bmTask.taskCreator},
+            </if>
+            <if test="bmTask.creatorDept!=null  ">
+                creator_dept=#{bmTask.creatorDept},
+            </if>
+            <if test="bmTask.creatTime!=null  ">
+                creat_time=#{bmTask.creatTime},
+            </if>
+            <if test="bmTask.endTime!=null  ">
+                end_time=#{bmTask.endTime},
+            </if>
+            <if test="bmTask.planStartTime!=null  ">
+                plan_start_time=#{bmTask.planStartTime},
+            </if>
+            <if test="bmTask.planEndTime!=null  ">
+                plan_end_time=#{bmTask.planEndTime},
+            </if>
+            <if test="bmTask.taskExecutor!=null  ">
+                task_executor=#{bmTask.taskExecutor},
+            </if>
+            <if test="bmTask.taskStatus !=null  ">
+                task_status =#{bmTask.taskStatus },
+            </if>
+            <if test="bmTask.taskSpec !=null  ">
+                task_spec =#{bmTask.taskSpec },
+            </if>
+        </trim>
+        where task_id=#{bmTask.taskId}
+    </update>
+
+    <!--批量删除的方法-->
+    <delete id="delBatchTask" parameterType="int" >
+        DELETE FROM bm_task WHERE task_id IN
+        <foreach collection="ids" item="id"  open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+
+</mapper>

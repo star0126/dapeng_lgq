@@ -1,20 +1,15 @@
 package com.system.module2.config;
 
-import com.system.module2.mytemplate.ApiResponse;
-import com.system.module2.mytemplate.ErrorResponseEntity;
-import org.springframework.http.HttpHeaders;
+import com.system.module2.mytemplate.GeneralException;
+import com.system.module2.mytemplate.JsonResult;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.context.request.WebRequest;
-import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
-import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import java.util.Date;
 
 /**
  * @ProjectName: dapeng_lgq
@@ -24,45 +19,38 @@ import javax.servlet.http.HttpServletResponse;
  * @version: 1.0
  * @description: 全局异常处理
  **/
-@ControllerAdvice(basePackages = {"com.system.module2",})//定义统一的异常处理类
-public class GlobalExceptionHandler  extends ResponseEntityExceptionHandler {
+@ControllerAdvice
+@ResponseBody
+public class GlobalExceptionHandler{
 
-    /**
-     * 处理不合法参数异常
-     */
-    @ExceptionHandler(IllegalArgumentException.class)
-    /*@ResponseBody
-    ResponseEntity handleConflictException(IllegalArgumentException e) {
-        ApiResponse apiResponse = ApiResponse.builder().code(HttpStatus.CONFLICT.value()).message(e.getMessage()).build();
-        return ResponseEntity.status(HttpStatus.CONFLICT).body(apiResponse);
-    }*/
-    public ErrorResponseEntity runtimeExceptionHandler(HttpServletRequest request, final Exception e, HttpServletResponse response) {
-        response.setStatus(HttpStatus.CONFLICT.value());
-        IllegalArgumentException exception = (IllegalArgumentException) e;
-        return new ErrorResponseEntity(409, exception.getMessage());
+    //格式化异常记录日志
+    private static final String logExceptionFormat = new Date().toString()+",springBoot捕获全局异常: 代号: %s 信息: %s";
+    //引入日志信息
+    private static Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
+
+    //不合法参数异常
+    @ExceptionHandler({IllegalArgumentException.class})
+    public String illeaglAargumentException(IllegalArgumentException ex){
+        return resultFormat(HttpStatus.CONFLICT.value(),ex);
     }
 
+    //通用异常处理
+    @ExceptionHandler({GeneralException.class})
+    public String generalException(GeneralException ex){
+        return resultFormat(ex.getCode(),ex);
+    }
 
-    /**
-     * 通用的接口映射异常处理方
-     */
-    @Override
-    protected ResponseEntity<Object> handleExceptionInternal(Exception ex, Object body, HttpHeaders headers,
-                                                             HttpStatus status, WebRequest request) {
-        if (ex instanceof MethodArgumentNotValidException) {
-            MethodArgumentNotValidException exception = (MethodArgumentNotValidException) ex;
-            return new ResponseEntity<>(
-                    new ErrorResponseEntity(status.value(),
-                                            exception.getBindingResult().getAllErrors().get(0).getDefaultMessage()),
-                                            status);
-        }
-        if (ex instanceof MethodArgumentTypeMismatchException) {
-            MethodArgumentTypeMismatchException exception = (MethodArgumentTypeMismatchException) ex;
-            logger.error("参数转换失败，方法：" + exception.getParameter().getMethod().getName() + "，参数：" + exception.getName()
-                    + ",信息：" + exception.getLocalizedMessage());
-            return new ResponseEntity<>(new ErrorResponseEntity(status.value(), "参数转换失败"), status);
-        }
-        return new ResponseEntity<>(new ErrorResponseEntity(status.value(), "参数转换失败"), status);
+    //其他异常
+    @ExceptionHandler({Exception.class})
+    public String exception(Exception ex) {
+        return resultFormat(11, ex);
+    }
+
+    //定义异常返回值
+    private <T extends Throwable> String resultFormat(Integer code, T ex) {
+        ex.printStackTrace();
+        log.error(String.format(logExceptionFormat, code, ex.getMessage()));
+        return JsonResult.failed(code, ex.getMessage(),null);
     }
 
 }

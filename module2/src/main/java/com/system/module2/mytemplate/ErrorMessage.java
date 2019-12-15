@@ -12,7 +12,8 @@ public enum  ErrorMessage {
     //The login parameter is empty
     LOGINPARAMETERNUL("登录时参数为空！"),
     NAMENUL("用户名为空！"),
-    PWDNUL("密码为空！");
+    PWDNUL("密码为空！"),
+    REGISTERPARAMETERNUL("注册时参数为空！");
 
     private String text;
 

@@ -2,508 +2,220 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7004d475-78ac-4c18-8a58-7cec37a4b8da" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/91652b7c-78de-4325-b5b6-e877eb77ba2b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/91652b7c-78de-4325-b5b6-e877eb77ba2b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/任务管理系统设计说明书.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/入职培训.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/数据库设计.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/Module1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/config/WebAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/controllers/EmpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/controllers/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/dao/BmEmpDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/dao/BmTaskDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/entity/BmDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/entity/BmEmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/entity/BmTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/service/BmEmpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/service/BmTaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/service/impl/BmEmpServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/service/impl/BmTaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/util/EmpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/java/com/system/module1/util/StringToDateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/mybatis/BmEmpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/mybatis/BmTaskMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/css/bootstrap-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/css/info-mgt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/css/jquery.dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/css/mycss/task_add.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/css/mycss/task_info.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/font/DATA-font01.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/LOGO74.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/PDF Files.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/addico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/bg03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/bookico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/btnbg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/btnbg02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/centerbottombg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/centerleft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/centerright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/centertopbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/check-select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/close3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/close4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/countbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/date.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/datecion01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/dateico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/delico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/dialog_btnbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/dialogbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/dialogbtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/dico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/document.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/downcenter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/downleft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/dright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/edtico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/email03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/file02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/file03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/foot01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/foot02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/footbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/formbtnbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/formbtnbg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/get.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ico01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ico02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ico03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ico04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ico05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ico06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ico07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ico90.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ico91.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ico92.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/icon99.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/indicator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/infor_home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/input_psw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/input_psw_focus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/input_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/input_user_focus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/inputbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/leave01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/leftbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/lefthoverbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/leftico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/leftjt01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/leftjt02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/leftjt03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/leftjt04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/lefttop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/lefttopbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/licon01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/liicon02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/liicon03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/liicon05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/liicon06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/liicon07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/liicon08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/liicon09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/liicon10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/listico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_btn_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_panel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_pro1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_wel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/login_yzm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/logoff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/myFiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/myflie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/others.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/p1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/personal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/ph_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/posintion01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/righttitlebig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/righttop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/rmail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/rmail1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/selectxl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/sent01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/signout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/tabbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/table_print.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/tablelistbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/titlebg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/titlebg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/titleico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/tjico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/tjico_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/tjico_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/toolbarbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/top_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/top_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/topbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/topcenter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/toplight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/topline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/topmail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/topuser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/write.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/images/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/bootstrap-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/jquery.dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/task_add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/task_info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/task_upd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/templates/task_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/templates/task_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/main/resources/templates/task_upd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/src/test/java/com/system/module1/Module1ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/META-INF/module1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/Module1Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/config/WebAppConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/controllers/EmpController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/controllers/TaskController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/dao/BmEmpDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/dao/BmTaskDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/entity/BmDept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/entity/BmEmp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/entity/BmTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/service/BmEmpService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/service/BmTaskService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/service/impl/BmEmpServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/service/impl/BmTaskServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/util/EmpUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/com/system/module1/util/StringToDateConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/mybatis/BmEmpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/mybatis/BmTaskMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/css/bootstrap-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/css/info-mgt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/css/jquery.dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/css/mycss/task_add.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/css/mycss/task_info.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/font/DATA-font01.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/LOGO74.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/PDF Files.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/addico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/bg03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/bookico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/btnbg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/btnbg02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/centerbottombg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/centerleft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/centerright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/centertopbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/check-select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/close3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/close4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/countbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/date.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/datecion01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/dateico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/delico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/dialog_btnbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/dialogbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/dialogbtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/dico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/document.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/downcenter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/downleft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/dright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/edtico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/email03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/file02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/file03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/foot01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/foot02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/footbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/formbtnbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/formbtnbg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/get.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ico01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ico02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ico03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ico04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ico05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ico06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ico07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ico90.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ico91.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ico92.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/icon99.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/indicator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/infor_home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/input_psw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/input_psw_focus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/input_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/input_user_focus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/inputbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/leave01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/leftbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/lefthoverbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/leftico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/leftjt01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/leftjt02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/leftjt03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/leftjt04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/lefttop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/lefttopbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/licon01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/liicon02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/liicon03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/liicon05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/liicon06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/liicon07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/liicon08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/liicon09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/liicon10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/listico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_btn_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_panel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_pro1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_wel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/login_yzm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/logoff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/myFiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/myflie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/others.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/p1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/personal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/ph_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/posintion01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/righttitlebig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/righttop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/rmail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/rmail1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/selectxl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/sent01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/signout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/tabbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/table_print.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/tablelistbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/titlebg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/titlebg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/titleico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/tjico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/tjico_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/tjico_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/toolbarbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/top_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/top_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/topbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/topcenter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/toplight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/topline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/topmail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/topuser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/write.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/images/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/bootstrap-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/jquery.dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/task_add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/task_info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/static/js/myjs/task_upd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/templates/task_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/templates/task_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/classes/templates/task_upd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/target/test-classes/com/system/module1/Module1ApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main - 快捷方式.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/Module2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/ErrorPageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/controllers/BmDeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/controllers/BmEmpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/controllers/BmEmpDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/controllers/BmTaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/dao/BmDeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/dao/BmEmpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/dao/BmTaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/entity/BmDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/entity/BmEmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/entity/BmTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/ErrorResponseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/service/IBmDeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/service/IBmEmpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/service/IBmTaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/service/impl/BmDeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/service/impl/BmEmpServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/service/impl/BmTaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/mybatis/BmDeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/mybatis/BmEmpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/mybatis/BmTaskMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/css/login2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/jquery-1.9.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/src/test/java/com/system/module2/Module2ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/META-INF/module2.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/Module2Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/config/ErrorPageConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/config/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/config/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/controllers/BmDeptController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/controllers/BmEmpController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/controllers/BmTaskController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/dao/BmDeptMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/dao/BmEmpMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/dao/BmTaskMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/entity/BmDept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/entity/BmEmp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/entity/BmTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/mytemplate/ApiResponse$ApiResponseBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/mytemplate/ApiResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/mytemplate/ErrorMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/mytemplate/ErrorResponseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/service/IBmDeptService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/service/IBmEmpService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/service/IBmTaskService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/service/impl/BmDeptServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/service/impl/BmEmpServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/service/impl/BmTaskServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/mybatis/BmDeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/mybatis/BmEmpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/mybatis/BmTaskMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/static/css/login2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/static/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/static/images/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/static/js/jquery-1.9.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/static/js/myjs/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/classes/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2/target/test-classes/com/system/module2/Module2ApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/aop/AopAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/aop/AopLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/aop/MyAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/MyMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/interceptor/LoginHandlerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/GeneralException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/JsonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/css/bootstrap-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/css/info-mgt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/css/jquery.dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/css/mycss/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/css/mycss/task_add.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/LOGO74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/PDF Files.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/addico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/bg03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/bookico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/btnbg01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/btnbg02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/centerbottombg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/centerleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/centerright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/centertopbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/check-select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/close3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/close4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/countbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/date.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/datecion01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/dateico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/delico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/dialog_btnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/dialogbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/dialogbtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/dico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/document.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/downcenter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/downleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/dright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/edtico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/email03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/file02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/file03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/foot01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/foot02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/footbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/formbtnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/formbtnbg01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/get.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ico05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ico06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ico07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ico90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ico91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ico92.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/icon99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/indicator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/infor_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/input_psw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/input_psw_focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/input_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/input_user_focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/inputbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/leave01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/leftbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/lefthoverbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/leftico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/leftjt01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/leftjt02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/leftjt03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/leftjt04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/lefttop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/lefttopbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/licon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/liicon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/liicon03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/liicon05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/liicon06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/liicon07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/liicon08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/liicon09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/liicon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/listico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_btn_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_pro1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_wel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login_yzm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/logoff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/myFiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/myflie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/others.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/personal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/ph_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/posintion01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/righttitlebig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/righttop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/rmail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/rmail1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/selectxl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/sent01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/signout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/tabbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/table_print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/tablelistbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/titlebg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/titlebg01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/titleico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/tjico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/tjico_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/tjico_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/toolbarbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/top_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/top_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/topbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/topcenter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/toplight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/topline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/topmail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/topuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/write.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/bootstrap-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/jquery.dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/upd_emp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/upd_pwd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/templates/emp_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/templates/upd_emp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module2/src/main/resources/templates/upd_pwd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/数据库设计.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/数据库设计.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/target/classes/META-INF/module1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/ErrorPageConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/controllers/BmEmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/controllers/BmEmpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/entity/BmEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/entity/BmEmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/ErrorResponseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/resources/static/css/login2.css" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/resources/static/css/login2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/resources/static/images/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/resources/static/images/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/META-INF/module2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/META-INF/module2.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/com/system/module2/config/ErrorPageConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/com/system/module2/config/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/config/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/com/system/module2/controllers/BmDeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/controllers/BmDeptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/com/system/module2/controllers/BmEmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/controllers/BmEmpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/com/system/module2/entity/BmEmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/entity/BmEmp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/com/system/module2/mytemplate/ApiResponse$ApiResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/com/system/module2/mytemplate/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/com/system/module2/mytemplate/ErrorMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/com/system/module2/mytemplate/ErrorMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/com/system/module2/mytemplate/ErrorResponseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/static/css/login2.css" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/static/css/login2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/static/images/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/static/images/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/static/js/myjs/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/static/js/myjs/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/target/classes/templates/login.html" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/module2/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/module1/target/" />
+    <ignored path="$PROJECT_DIR$/module3/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -523,6 +235,12 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -533,8 +251,52 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>empsex</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/ExceptionJsonResult.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/JsonResult.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/GeneralException.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/templates/Upd-Emp.html" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/static/css/mycss/index.css" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/templates/password.html" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/static/css/mycss/task_add.css" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/static/css/index.css" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/templates/emp_info.html" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/MyMvcConfig.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/interceptor/LoginHandlerInterceptor.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/static/images/login.js" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/ErrorMessage.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/EmailElement.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/util/MailClass.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/static/css/login2.css" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/login.js" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/templates/upd_emp.html" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/templates/upd_pwd.html" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/entity/BmEmp.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/static/js/index.js" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/upd_emp.js" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/upd_pwd.js" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/aop/MyAop.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/aop/AopLog.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/controllers/BmEmpController.java" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/aop/AopAspect.java" />
+        <option value="$PROJECT_DIR$/module2/pom.xml" />
+        <option value="$PROJECT_DIR$/module2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/RedisConfig.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -549,8 +311,40 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="264" />
+    <option name="width" value="1292" />
+    <option name="height" value="558" />
+  </component>
   <component name="ProjectId" id="1UmUEdgZzhyINIapn5NmeRybDE7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dapeng_lgq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dapeng_lgq" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -564,9 +358,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -576,15 +371,15 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ideaProject\dapeng_lgq\doc" />
-      <recent name="E:\ideaProject\dapeng_lgq\module2\src\main\resources\static" />
-      <recent name="E:\ideaProject\dapeng_lgq\module1\src\main\resources\static\css" />
-      <recent name="E:\ideaProject\dapeng_lgq\module1\src\main\resources\static\js\myjs" />
-      <recent name="E:\ideaProject\dapeng_lgq\module1\src\main\resources\static\js" />
+      <recent name="F:\ideaIU\IdeaProjects\dapeng_lgq\module2\src\main\resources\static\js" />
+      <recent name="F:\ideaIU\IdeaProjects\dapeng_lgq\module2\src\main\resources\static\css" />
+      <recent name="F:\ideaIU\IdeaProjects\dapeng_lgq\module2\src\main\resources\static\css\mycss" />
+      <recent name="F:\ideaIU\IdeaProjects\dapeng_lgq\module2\src\main\resources\static\images" />
+      <recent name="F:\ideaIU\IdeaProjects\dapeng_lgq\module2\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.system.module2.controllers" />
@@ -592,6 +387,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ideaProject\dapeng_lgq\module2\src\main\resources" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Module2Application">
     <configuration name="Module2ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -620,6 +427,13 @@
     <configuration name="Module2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="module2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.system.module2.Module2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="module3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.system.module3.Module3Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -664,8 +478,59 @@
       <workItem from="1576198362605" duration="8762000" />
       <workItem from="1576207148867" duration="11696000" />
       <workItem from="1576221923007" duration="12313000" />
+      <workItem from="1576252224527" duration="332000" />
+      <workItem from="1576252648867" duration="1993000" />
+      <workItem from="1576254677598" duration="34000" />
+      <workItem from="1576302040059" duration="9661000" />
+      <workItem from="1576314989672" duration="106000" />
+      <workItem from="1576315166246" duration="6325000" />
+      <workItem from="1576327925289" duration="7929000" />
+      <workItem from="1576389120761" duration="10340000" />
+      <workItem from="1576399694752" duration="21306000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58026000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="设计器" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.2540453" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.720517" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32956383" />
+      <window_info anchor="bottom" id="调试" order="15" weight="0.32956383" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32928804" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="调色板" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -768,5 +633,421 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576034065112" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/JsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/GeneralException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module1/src/main/resources/static/js/myjs/task_add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/css/jquery.dialog.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module1/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/meta.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="173" column="22" selection-start-line="173" selection-start-column="22" selection-end-line="173" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/css/mycss/task_add.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/css/mycss/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/css/info-mgt.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/js/bootstrap-table-zh-CN.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module1/src/main/resources/templates/task_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module1/src/main/resources/templates/task_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding>
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/interceptor/LoginHandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/MyMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#794#1550#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="17829" column="12" selection-start-line="17829" selection-start-column="12" selection-end-line="17829" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/images/login.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/EmailElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.2.2.RELEASE/spring-context-support-5.2.2.RELEASE.jar!/org/springframework/mail/SimpleMailMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/util/MailClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/css/login2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="149" column="19" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/mytemplate/ErrorMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.2.0/mybatis-plus-core-3.2.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module1/src/main/resources/templates/task_upd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="31" column="97" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/templates/emp_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="194" column="16" lean-forward="true" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/templates/upd_pwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/templates/upd_emp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1954">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/upd_emp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="117" column="43" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/static/js/myjs/upd_pwd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/annotation/RetentionPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="620" column="36" selection-start-line="620" selection-start-column="36" selection-end-line="620" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/controllers/BmEmpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1209">
+          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/aop/MyAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/aop/AopLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/entity/BmEmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/aop/AopAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/java/com/system/module2/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1396#1425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

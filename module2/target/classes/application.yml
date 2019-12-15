@@ -13,6 +13,10 @@ mybatis-plus:
 
 
 spring:
+  aop:
+    auto: true
+  thymeleaf:
+    cache: false  #禁用模板引擎的缓存
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/boot_module?useSSL=true&serverTimezone=UTC

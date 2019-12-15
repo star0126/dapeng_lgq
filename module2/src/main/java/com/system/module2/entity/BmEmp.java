@@ -1,5 +1,6 @@
 package com.system.module2.entity;
 
+import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -30,34 +31,34 @@ public class BmEmp implements Serializable {
 
     private static final long serialVersionUID=1L;
 
-    @TableId(value = "emp_id", type = IdType.AUTO)
+    @TableId(value = "emp_id", type = IdType.INPUT)
     private String empId;
 
-    @TableField("emp_pwd")
+    @TableField(value = "emp_pwd")
     private String empPwd;
 
-    @TableField("emp_name")
+    @TableField(value = "emp_name")
     private String empName;
 
-    @TableField("emp_sex")
+    @TableField(value = "emp_sex")
     private String empSex;
 
-    @TableField("emp_dept")
+    @TableField(value = "emp_dept")
     private Integer empDept;
 
-    @TableField("emp_role")
+    @TableField(value = "emp_role")
     private String empRole;
 
-    @TableField("emp_status")
+    @TableField(value = "emp_status")
     private String empStatus;
 
-    @TableField("emp_email")
+    @TableField(value = "emp_email")
     private String empEmail;
 
-    @TableField("emp_phone")
+    @TableField(value = "emp_phone")
     private String empPhone;
 
-    @TableField("jur_ide")
+    @TableField(value = "jur_ide")
     private Integer jurIde;
 
 
